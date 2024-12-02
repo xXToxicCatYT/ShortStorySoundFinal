@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4406d1e8480148b4fa9d8d35645b3441
+  - enabled: 1
+    path: Assets/Scenes/FirstScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SecondScene.unity
+    guid: aede7168f9e66e74fbf16c5e1a0162c1
+  - enabled: 1
+    path: Assets/Scenes/ThirdScene.unity
+    guid: 44dccebb5a4fab9449f72508bcefd048
+  - enabled: 1
+    path: Assets/Scenes/3Options.unity
+    guid: 5cf9c09548b1f39408b2e4cb2553019f
+  - enabled: 1
+    path: Assets/Scenes/Revenge.unity
+    guid: e3b62d81beee29f4db87334c237660f4
+  - enabled: 1
+    path: Assets/Scenes/Vagrant.unity
+    guid: e6b5fcf2d63671345a8136087729367e
+  - enabled: 1
+    path: Assets/Scenes/Massacre.unity
+    guid: 9541c809fe8fe12438b1bcb8e87e5d95
+  m_configObjects: {}
