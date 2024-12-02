@@ -1,119 +1,88 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using FMODUnity;
-using FMOD.Studio;
 
 public class ButtonScene : MonoBehaviour
 {
-    [Header("UI Animators")]
     public Animator fadeOut;
     public Animator fadeIn;
+
     public Animator vagrant;
     public Animator massacre;
 
-    [Header("FMOD Settings")]
-    private EventInstance buttonPressInstance;
-
-    private int counter = 0; // Ensures only one button action can be triggered at a time
+    private int counter;
 
     private void Awake()
     {
-        // Ensure the cursor is visible and unlocked
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-    }
-
-    private void Start()
-    {
-        // Create the FMOD sound instance for the button press
-        try
-        {
-            buttonPressInstance = RuntimeManager.CreateInstance(FMODEvents.instance.buttonPress);
-
-            // Optional: Set 3D positional attributes
-            buttonPressInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
-        }
-        catch (System.Exception ex)
-        {
-            Debug.LogError($"Failed to initialize button press sound: {ex.Message}");
-        }
+        counter = 0;
     }
 
     public void Revenge()
     {
         if (counter == 0)
         {
-            PlayButtonSound();
-            StartCoroutine(LoadSceneWithTransition(5, fadeIn, fadeOut, null));
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.buttonPress, this.transform.position);
+            StartCoroutine(LoadLevelRevenge());
             counter++;
         }
-    }
-
+    }   
     public void Vagrant()
     {
         if (counter == 0)
         {
-            PlayButtonSound();
-            StartCoroutine(LoadSceneWithTransition(6, vagrant, fadeOut, "VagIn"));
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.buttonPress, this.transform.position);
+            StartCoroutine(LoadLevelVagrant());
             counter++;
         }
-    }
-
+    }    
     public void Massacre()
     {
         if (counter == 0)
         {
-            PlayButtonSound();
-            StartCoroutine(LoadSceneWithTransition(7, massacre, fadeOut, "MasIn"));
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.buttonPress, this.transform.position);
+            StartCoroutine(LoadLevelMassacre());
             counter++;
         }
     }
 
-    private void PlayButtonSound()
+    IEnumerator LoadLevelRevenge()
     {
-        if (buttonPressInstance.isValid())
-        {
-            buttonPressInstance.start();
-        }
-        else
-        {
-            Debug.LogWarning("Button press sound instance is invalid!");
-        }
-    }
-
-    private void OnDestroy()
-    {
-        // Properly release FMOD instance to free resources
-        if (buttonPressInstance.isValid())
-        {
-            buttonPressInstance.release();
-        }
-    }
-
-    /// <summary>
-    /// Loads a scene with optional transition animations.
-    /// </summary>
-    /// <param name="sceneIndex">Scene index to load</param>
-    /// <param name="entryAnimator">Animator for entry transition</param>
-    /// <param name="exitAnimator">Animator for exit transition</param>
-    /// <param name="entryTrigger">Optional trigger for entry animation</param>
-    private IEnumerator LoadSceneWithTransition(int sceneIndex, Animator entryAnimator, Animator exitAnimator, string entryTrigger)
-    {
-        if (entryAnimator != null && !string.IsNullOrEmpty(entryTrigger))
-        {
-            entryAnimator.SetTrigger(entryTrigger);
-        }
-
-        yield return new WaitForSeconds(0.5f);
-
-        if (exitAnimator != null)
-        {
-            exitAnimator.SetTrigger("Out");
-        }
-
+        //Play animation
+        fadeIn.SetTrigger("Start");
+        yield return new WaitForSeconds(1);
+        fadeOut.SetTrigger("Out");
+        //Wait
         yield return new WaitForSeconds(5);
 
-        SceneManager.LoadScene(sceneIndex);
+        //Load scene
+        SceneManager.LoadScene(5);
+    }
+
+    IEnumerator LoadLevelVagrant()
+    {
+        //Play animation
+        vagrant.SetTrigger("VagIn");
+        yield return new WaitForSeconds(1);
+        fadeOut.SetTrigger("Out");
+        //Wait
+        yield return new WaitForSeconds(5);
+
+        //Load scene
+        SceneManager.LoadScene(6);
+    }
+
+    IEnumerator LoadLevelMassacre()
+    {
+        //Play animation
+        massacre.SetTrigger("MasIn");
+        yield return new WaitForSeconds(1);
+        fadeOut.SetTrigger("Out");
+        //Wait
+        yield return new WaitForSeconds(5);
+
+        //Load scene
+        SceneManager.LoadScene(7);
     }
 }
