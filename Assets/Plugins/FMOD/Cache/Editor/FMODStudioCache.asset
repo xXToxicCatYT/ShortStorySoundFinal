@@ -1,5 +1,194 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9037010795271308576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 1 Dialogue 1
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 1 Dialogue 1
+  Guid:
+    Data1: -979037224
+    Data2: 1333821027
+    Data3: 1116428478
+    Data4: 1642398901
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3168
+--- !u!114 &-8490713333676159131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Gabriel 1 Dialogue 3
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Gabriel 1 Dialogue 3
+  Guid:
+    Data1: -418257514
+    Data2: 1106322679
+    Data3: 532490921
+    Data4: -1966933248
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4848
+--- !u!114 &-7905230852181208153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 2 Dialogue 4
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 2 Dialogue 4
+  Guid:
+    Data1: -894101716
+    Data2: 1176344360
+    Data3: -305691725
+    Data4: -1403915213
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4080
+--- !u!114 &-6287769899843827703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 1 Dialogue 3
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 1 Dialogue 3
+  Guid:
+    Data1: 1784240058
+    Data2: 1281937607
+    Data3: 1851909266
+    Data4: 1348708522
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8616
+--- !u!114 &-6004032115458639198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 2 Dialogue 1
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 2 Dialogue 1
+  Guid:
+    Data1: 1294952337
+    Data2: 1248499003
+    Data3: -2059827299
+    Data4: 1479982078
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9072
+--- !u!114 &-4907098787496619350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Armor Jump
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Armor Jump
+  Guid:
+    Data1: 924042209
+    Data2: 1341824369
+    Data3: -509542772
+    Data4: -1179018787
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4084077792806637654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Gabriel 1 Dialogue 1
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Gabriel 1 Dialogue 1
+  Guid:
+    Data1: -922075125
+    Data2: 1143534026
+    Data3: 497488790
+    Data4: 1206627519
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6432
 --- !u!114 &-4045353791400535701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +204,38 @@ MonoBehaviour:
   Path: E:/FMOD Studio Projects/Sound Final Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638687090645068051
+  lastModified: 638687335924130663
   FileSizes:
   - Name: Desktop
-    Value: 9600
+    Value: 104192
   Exists: 1
+--- !u!114 &-3807965187959794926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/CutsceneAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/CutsceneAmbience
+  Guid:
+    Data1: 2018757690
+    Data2: 1249394144
+    Data3: 1483753147
+    Data4: 25480261
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4440
 --- !u!114 &-3435453932873029823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,12 +251,32 @@ MonoBehaviour:
   Path: E:/FMOD Studio Projects/Sound Final Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638687090643283145
+  lastModified: 638687335923899137
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
---- !u!114 &-1150099252582389096
+--- !u!114 &-3034153418164705513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: E:/FMOD Studio Projects/Sound Final Project/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 638687245829246755
+  FileSizes:
+  - Name: Desktop
+    Value: 482208
+  Exists: 1
+--- !u!114 &-2667496902206865894
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,14 +286,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SwordSwing
+  m_Name: event:/SFX/Wood Slicing
   m_EditorClassIdentifier: 
-  Path: event:/SwordSwing
+  Path: event:/SFX/Wood Slicing
   Guid:
-    Data1: 961167665
-    Data2: 1302821920
-    Data3: 616898472
-    Data4: -1561243608
+    Data1: -48668411
+    Data2: 1307929011
+    Data3: -568281982
+    Data4: 294257667
   Banks:
   - {fileID: -4045353791400535701}
   IsStream: 0
@@ -67,6 +303,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2489994896751391875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 2 Dialogue 2
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 2 Dialogue 2
+  Guid:
+    Data1: 234935341
+    Data2: 1179990017
+    Data3: 1260316313
+    Data4: 939937844
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5472
+--- !u!114 &-308131760963346845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Jump SFX
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Jump SFX
+  Guid:
+    Data1: 919018762
+    Data2: 1187969634
+    Data3: 585530764
+    Data4: -1371463753
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-77150019257280618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 2 Dialogue 3
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 2 Dialogue 3
+  Guid:
+    Data1: 1039210764
+    Data2: 1266980597
+    Data3: 1113313670
+    Data4: -623801235
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3600
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,15 +400,168 @@ MonoBehaviour:
   - {fileID: 8068642306897393691}
   - {fileID: -3435453932873029823}
   - {fileID: -4045353791400535701}
+  - {fileID: -3034153418164705513}
   EditorEvents:
-  - {fileID: -1150099252582389096}
+  - {fileID: -3807965187959794926}
+  - {fileID: 6813284172448793268}
+  - {fileID: 8459844210979382044}
+  - {fileID: 4834554062280141480}
+  - {fileID: -4084077792806637654}
+  - {fileID: -77150019257280618}
+  - {fileID: -7905230852181208153}
+  - {fileID: -2489994896751391875}
+  - {fileID: -6004032115458639198}
+  - {fileID: -8490713333676159131}
+  - {fileID: -6287769899843827703}
+  - {fileID: -9037010795271308576}
+  - {fileID: 5236052544722853792}
+  - {fileID: 1813411899374744132}
+  - {fileID: -2667496902206865894}
+  - {fileID: -308131760963346845}
+  - {fileID: 6683634344852060131}
+  - {fileID: -4907098787496619350}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3435453932873029823}
   StringsBanks:
   - {fileID: 8068642306897393691}
-  cacheTime: 638687090645068051
+  cacheTime: 638687335924130663
   cacheVersion: 131621
+--- !u!114 &1813411899374744132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Scream
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Scream
+  Guid:
+    Data1: -717887919
+    Data2: 1158734238
+    Data3: 635327917
+    Data4: 1277841696
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4834554062280141480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Gabriel 1 Dialogue 2
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Gabriel 1 Dialogue 2
+  Guid:
+    Data1: 723602692
+    Data2: 1121784152
+    Data3: -1029348701
+    Data4: 888809159
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8520
+--- !u!114 &5236052544722853792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Sensei 1 Dialogue 2
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Sensei 1 Dialogue 2
+  Guid:
+    Data1: -154713870
+    Data2: 1219596518
+    Data3: 1959593858
+    Data4: -322810421
+  Banks:
+  - {fileID: -3034153418164705513}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4272
+--- !u!114 &6683634344852060131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Sword Swing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Sword Swing
+  Guid:
+    Data1: 223729619
+    Data2: 1304862751
+    Data3: -1070615899
+    Data4: -998361242
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6813284172448793268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/ButtonPress
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/ButtonPress
+  Guid:
+    Data1: 1589005112
+    Data2: 1137135432
+    Data3: 1381810056
+    Data4: -2082515613
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8068642306897393691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,8 +577,35 @@ MonoBehaviour:
   Path: E:/FMOD Studio Projects/Sound Final Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638687090643293214
+  lastModified: 638687335923909180
   FileSizes:
   - Name: Desktop
-    Value: 806
+    Value: 1610
   Exists: 1
+--- !u!114 &8459844210979382044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footsteps
+  Guid:
+    Data1: -1727157250
+    Data2: 1120126075
+    Data3: 673301653
+    Data4: 1050022126
+  Banks:
+  - {fileID: -4045353791400535701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800

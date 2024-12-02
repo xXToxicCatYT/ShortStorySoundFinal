@@ -21,8 +21,10 @@ public class Dummy : MonoBehaviour
 
         if (hits == 20)
         {
-
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.scream, this.transform.position);
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.ambience, this.transform.position);
             dialogue2.LoadNextLevel();
+            hits = 0;
         }
 
     }
@@ -31,6 +33,7 @@ public class Dummy : MonoBehaviour
     {
         if (other.tag == "Melee" && hitDisabled == false)
         {
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.woodSlicing, this.transform.position);
             hitDisabled = true;
             hits++;
         }

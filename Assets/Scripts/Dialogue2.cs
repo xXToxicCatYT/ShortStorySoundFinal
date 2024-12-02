@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
+using System.Diagnostics.Tracing;
 
 public class Dialogue2 : MonoBehaviour
 {
@@ -21,6 +23,8 @@ public class Dialogue2 : MonoBehaviour
     private bool playerIsClose;
     private bool dialogueActive;
 
+    int dCounter = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +38,7 @@ public class Dialogue2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose && dialogueActive == false && dialogue.DialogueDone() == true)
         {
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.G1D1, this.transform.position);
             dialoguePanel.SetActive(true);
             StartDialogue();
             dialogueActive = true;
@@ -43,12 +48,23 @@ public class Dialogue2 : MonoBehaviour
         {
             if (textComponent.text == lines[index])
             {
+                if (dCounter == 0)
+                {
+                    AudioManager.instance.PlayOneShot(FMODEvents.instance.G1D2, this.transform.position);
+                }
+
+                if (dCounter == 1)
+                {
+                    AudioManager.instance.PlayOneShot(FMODEvents.instance.G1D3, this.transform.position);
+                }
+
+                if (dCounter == 2)
+                {
+                    dCounter = 0;
+                }
+
                 NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
+                dCounter++;
             }
         }
     }
@@ -98,6 +114,8 @@ public class Dialogue2 : MonoBehaviour
             dialoguePanel.SetActive(false);
             dialogueActive = false;
             textComponent.text = string.Empty;
+
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.ambience, this.transform.position);
             LoadNextLevel();
         }
     }
@@ -114,6 +132,7 @@ public class Dialogue2 : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            dCounter = 0;
             playerIsClose = false;
             dialoguePanel.SetActive(false);
             dialogueActive = false;

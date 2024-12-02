@@ -13,6 +13,7 @@ public class PupilAnimation : MonoBehaviour
     {
         if (other.CompareTag("Player") && dialogue.DialogueDone() == true)
         {
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.armorJump, this.transform.position);
             animator.SetTrigger("Escape");
             StartCoroutine(DelaySceneChange());
         }
